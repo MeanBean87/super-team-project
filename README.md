@@ -1,3 +1,4 @@
+
 # Unit 06 Mini-Project: Library of Congress Search Tool
 
 In this activity, you will work with a group to build an application that searches and displays results from the Library of Congress API.
@@ -74,3 +75,4 @@ Will every result have the same data? If not, how will we handle printing it to 
 
 ---
 © 2023 edX Boot Camps LLC. Confidential and Proprietary. All Rights Reserved.
+
