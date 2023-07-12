@@ -1,16 +1,27 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <title>Library Search</title>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title></title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="./assets/css/reset.css">
         <link rel="stylesheet" href="./assets/css/styles.css">
     </head>
     <body>
-
-        <script src="./assets/js/script.js ></script>
+        <h1>Library Search</h1>
+        <form id="search-form">
+          <input type="text" id="search-input" placeholder="Enter your search query" required>
+          <select id="format-select">
+            <option value="">Select format: </option>
+            <option value="photos">Photos</option>
+            <option value="books">Books</option>
+            <option value="videos">Videos</option>
+            <!-- we can put more stuff here-->
+          </select>
+          <input type="submit" value="Search">
+        </form>
+        <script src="./assets/js/script.js"></script>
     </body>
 </html>
